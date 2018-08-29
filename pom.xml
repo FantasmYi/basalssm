@@ -227,6 +227,7 @@
             <artifactId>protostuff-runtime</artifactId>
             <version>1.0.8</version>
         </dependency>
+        <!--mybatis 数据访问层 end -->
         <!--mongodb-->
         <dependency>
             <groupId>org.mongodb</groupId>
@@ -238,7 +239,7 @@
             <artifactId>bson</artifactId>
             <version>3.4.1</version>
         </dependency>
-        <!--mybatis 数据访问层 end -->
+
     </dependencies>
     <!-- Build Settings -->
     <!--http://maven.apache.org/pom.html#Build_Settings -->

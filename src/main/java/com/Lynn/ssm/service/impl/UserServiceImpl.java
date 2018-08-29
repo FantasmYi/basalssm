@@ -1,6 +1,6 @@
 package com.Lynn.ssm.service.impl;
 
-import com.Lynn.ssm.cache.RedisCache;
+
 import com.Lynn.ssm.dao.UserDao;
 import com.Lynn.ssm.entity.User;
 import com.Lynn.ssm.service.UserService;
@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public List<User> getUserList(int offset, int limit) {
-		String cache_key=RedisCache.CAHCENAME+"|getUserList|"+offset+"|"+limit;
+	//	String cache_key=RedisCache.CAHCENAME+"|getUserList|"+offset+"|"+limit;
 		//先去缓存中取
 		List<User> result_cache=userDao.queryAll(offset, limit);
 
