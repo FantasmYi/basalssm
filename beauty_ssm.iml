@@ -96,8 +96,8 @@
     <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.8" level="project" />
     <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.8" level="project" />
     <orderEntry type="library" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.8" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.4.2" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.4.2" level="project" />
-    <orderEntry type="library" name="Maven: org.mongodb:bson:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.10.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.13.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:2.14.3" level="project" />
   </component>
 </module>

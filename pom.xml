@@ -229,7 +229,7 @@
         </dependency>
         <!--mybatis 数据访问层 end -->
         <!--mongodb-->
-        <dependency>
+      <!-- <dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongodb-driver</artifactId>
             <version>3.4.2</version>
@@ -238,6 +238,12 @@
             <groupId>org.mongodb</groupId>
             <artifactId>bson</artifactId>
             <version>3.4.1</version>
+        </dependency>-->
+        <!--spring整合mongodb-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>1.10.7.RELEASE</version>
         </dependency>
 
     </dependencies>
